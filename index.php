@@ -32,7 +32,7 @@
   </head>
 
   <body class="body" ng-app="myApp">
-      <a href="api/edit.php">click here to route to post.html 1</a>
+      <a href="api/edit.php">click here to route and get data</a>
       <div ng-view></div>
     <div class="jumbotron text-center">
       <h1>SignUp</h1>

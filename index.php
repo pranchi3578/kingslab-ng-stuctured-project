@@ -32,12 +32,12 @@
   </head>
 
   <body class="body" ng-app="myApp">
-      <a href="#!/zzz">click here to route to post.html 1</a>
+      <a href="api/edit.php">click here to route to post.html 1</a>
       <div ng-view></div>
     <div class="jumbotron text-center">
       <h1>SignUp</h1>
     </div>
-    <div  class="formParent" ng-controller="myCtrl">
+    <div  class="formParent" ng-controller="myCtrl" >
       <form action="home.php" method="post" class="form">
         <input placeholder="username" type="text" name="username" ng-model="username"/>
         <input placeholder="phone number" type="text" name="phone" ng-model="phone" />
